@@ -1,31 +1,25 @@
-# Easy Lazy
+# Easy Lazy Unity
 
-A Blender addon for batch renaming and lazy parenting objects.
+Easy Lazy Unity is a Blender addon designed to streamline batch renaming and parenting objects. It provides an easy-to-use interface in the View3D Sidebar.
 
 ## Features
-
-- Batch rename selected objects with a base name and incremental numbering.
-- Parent selected objects to a chosen object easily.
-- Create an empty object and parent selected objects to it.
+- **Multi Rename**: Quickly rename selected objects in batch.
+- **Lazy Parent**: Easily parent objects to each other or to an empty.
+- **Apply Transforms**: Apply transformations (location, rotation, scale) to selected objects.
+- **Recenter Objects**: Center selected objects' origins at the 3D cursor location.
 
 ## Installation
-
-1. Download the `easy_lazy.py` file.
-2. Open Blender and go to `Edit` > `Preferences` > `Add-ons`.
-3. Click `Install...` and select the `easy_lazy.py` file.
-4. Enable the addon by checking the box next to `Easy Lazy`.
+1. Download the addon ZIP file from [Releases](https://github.com/Mo3DArtist/easy-lazy/releases).
+2. In Blender, go to `Edit > Preferences > Add-ons > Install...` and select the downloaded ZIP file.
+3. Enable the addon by ticking the checkbox next to "Easy Lazy Unity".
 
 ## Usage
+1. Open Blender and navigate to the 3D View.
+2. Find the "Easy Lazy Unity" panel in the Sidebar (`View3D > Sidebar > Easy Lazy Unity`).
+3. Use the provided tools under each section (`Multi Rename`, `Lazy Parent`, `Apply Transforms`, `Recenter Objects`) to streamline your workflow.
 
-1. Open the sidebar in the 3D viewport (`N` key).
-2. Go to the `Easy Lazy` tab.
-3. Use the `Multi Rename` section to rename selected objects.
-4. Use the `Lazy Parent` section to parent selected objects to a chosen object or create an empty object and parent to it.
+For more details and updates, visit the [Documentation](https://github.com/Mo3DArtist/easy-lazy).
 
-## Contributing
-
-Please read our [CONTRIBUTING](CONTRIBUTING.md) guidelines for more information on how to contribute to this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Support and Contribution
+- **Issues**: Report issues or suggest features on [GitHub Issues](https://github.com/Mo3DArtist/easy-lazy/issues).
+- **Contributing**: See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to the project.
